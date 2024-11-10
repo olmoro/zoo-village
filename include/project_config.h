@@ -39,7 +39,8 @@
 
 #else // BOILER (Прототип К12)
   // Светодиоды
-  #define CONFIG_GPIO_WIFI_LED        CONFIG_GPIO_LED_BLUE  // Синий (WiFi)
+  #define CONFIG_GPIO_SYSTEM_LED      CONFIG_GPIO_LED_BLUE  // Системный Синий
+  #define CONFIG_GPIO_MODE_LED        CONFIG_GPIO_LED_GREEN // зел
   #define CONFIG_GPIO_ALARM_FLASH     CONFIG_GPIO_LED_RED   // Красный мигающий сигнал аварии
   #define CONFIG_GPIO_IR_1            CONFIG_GPIO_IR_X1     // Выход на ИК блока 1 (резерв) 
   #define CONFIG_GPIO_IR_2            CONFIG_GPIO_IR_X2     // Выход на ИК блока 2 (резерв)

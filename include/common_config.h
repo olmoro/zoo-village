@@ -4,11 +4,11 @@
 
 // Номер выводов периферии, версия платы 023
 // Светодиоды
-#define CONFIG_GPIO_SYSTEM_LED    12    // ???
+//#define CONFIG_GPIO_SYSTEM_LED    12    // ???
 
 #define CONFIG_GPIO_LED_GREEN      2    // Зелёный, катод на GND
 #define CONFIG_GPIO_LED_BLUE       4    // Синий, катод на GND
-#define CONFIG_GPIO_LED_RED       15    // Красный, катод на GND
+#define CONFIG_GPIO_LED_RED   12  //  15    // Красный, катод на GND
 #define CONFIG_GPIO_IR_X1         14    // Выход на ИК светодиод, подключен к X1, катод на GND 
 #define CONFIG_GPIO_IR_X2          5    // Выход на ИК светодиод, подключен к X2, катод на GND
 
